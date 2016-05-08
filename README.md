@@ -10,7 +10,7 @@ Just clone the repository and install the dependencies
 npm install -g grunt-cli
 
 git clone https://github.com/ChaosChemnitz/interfug16
-cd IntraStart
+cd interfug16
 npm install
 bower install
 ```
