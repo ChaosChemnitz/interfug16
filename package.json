@@ -1,0 +1,31 @@
+{
+  "name": "interfug16",
+  "version": "0.1.0",
+  "description": "Website for the Interfug 2016 event",
+  "main": "bin/server.js",
+  "scripts": {
+    "prestart": "grunt",
+    "start": "node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaosChemnitz/interfug16.git"
+  },
+  "author": "Felix Bytow <drako@drako.guru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaosChemnitz/interfug16/issues"
+  },
+  "homepage": "https://github.com/ChaosChemnitz/interfug16#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "pug": "^2.0.0-alpha6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}

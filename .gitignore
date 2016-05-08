@@ -1,0 +1,9 @@
+# sublime
+*.sublime*
+
+# minified files
+*.min.*
+
+# installed dependencies
+node_modules/
+bower_components/
