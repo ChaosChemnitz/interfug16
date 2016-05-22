@@ -6,5 +6,26 @@ html
         title= title
         script(src='assets/scripts/angular.min.js')
         script(src='assets/scripts/angular-route.min.js')
+        script(src='assets/scripts/interfug.min.js')
+        link(rel='stylesheet', href='/assets/styles/interfug.min.css')
     body(ng-app='interfug')
-        div(ng-view)
+        div#header.container
+            header#title
+                h1= title
+            nav#nav
+                ul
+                  each entry in menu
+                    li
+                        a(href='#' + entry.url)
+                            span=entry.title
+            div.border
+        div#main.container
+            article#content.box
+                div#navplaceholder
+                div(ng-view)
+        table#container(border='0', cellpadding='0', cellspacing='0')
+            tbody
+                tr
+                    td#marx
+                    td.container
+                    td#line

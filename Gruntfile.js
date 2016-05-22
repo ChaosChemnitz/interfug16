@@ -20,12 +20,19 @@ module.exports = function(grunt) {
         'uglify': {
             'main': {
                 'files': {
+                    'assets/scripts/interfug.min.js': [
+                        'scripts/interfug.app.js',
+                        'scripts/home.controller.js'
+                    ]
                 }
             }
         },
         'cssmin': {
             'main': {
                 'files': {
+                    'assets/styles/interfug.min.css': [
+                        'styles/interfug.css'
+                    ]
                 }
             }
         }
