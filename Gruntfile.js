@@ -10,6 +10,10 @@ module.exports = function(grunt) {
                         'src': 'bower_components/angular/angular.min.js',
                         'dest': 'assets/scripts/angular.min.js'
                     },
+                    {
+                        'src': 'bower_components/angular-route/angular-route.min.js',
+                        'dest': 'assets/scripts/angular-route.min.js'
+                    }
                 ]
             }
         },
