@@ -19,4 +19,8 @@ router.get('/home', function(req, res) {
     });
 });
 
+router.get('/kontakt', function(req, res) {
+    res.render('kontakt', {});
+});
+
 module.exports = router;

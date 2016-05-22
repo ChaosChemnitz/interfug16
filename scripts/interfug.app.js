@@ -9,5 +9,9 @@
             templateUrl: 'home',
             controller: 'home'
         })
+        .when('/kontakt', {
+            templateUrl: 'kontakt',
+            controller: 'kontakt'
+        });
     }]);
 })(window.app || (window.app = {}));

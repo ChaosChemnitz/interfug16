@@ -22,7 +22,8 @@ module.exports = function(grunt) {
                 'files': {
                     'assets/scripts/interfug.min.js': [
                         'scripts/interfug.app.js',
-                        'scripts/home.controller.js'
+                        'scripts/home.controller.js',
+                        'scripts/kontakt.controller.js'
                     ]
                 }
             }
